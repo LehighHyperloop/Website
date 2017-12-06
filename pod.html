@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+
+	<title>Lehigh University Hyperloop</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/grayscale.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/costom.css" type="text/css">
+
+
+    <!-- Custom Fonts -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+				<a class="navbar-brand page-scroll" href="index.html">
+					<span class="light">LEHIGH</span> Hyperloop
+				</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+				<ul class="nav navbar-nav">
+					<li class="hidden">
+						<a href="#page-top"></a>
+					</li>
+
+					<li>
+						<a class="page-scroll" href="index.html#Sponsors">Sponsors</a>
+					</li>
+                    <li>
+                        <a class="page-scroll" target="" href="pod.html">Pod</a>
+                    </li>
+					<li>
+						<a class="page-scroll" href="team.html">Our Team</a>
+					</li>
+                    <li>
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">Year 1</button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="2016team.html">Team </a>
+                                <a href="2016pod.html">Pod</a>
+                            </div>
+                        </div>
+                    </li>
+					<li>
+						<a class="page-scroll" target="_blank" href="http://ignite.lehigh.edu/hyperloop">Donate</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="index.html#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
+
+	<!-- Intro Header -->
+	<header class="pod_intro">
+		<div class="intro-body">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1 class="brand-heading">Hyper Hawk</h1>
+						<!--
+                        <a href="" class="btn btn-levitation" data-toggle="modal" data-target="#levitation"></a>
+						<a href="" class="btn btn-power" data-toggle="modal" data-target="#power"></a>
+						<a href="" class="btn btn-compressor" data-toggle="modal" data-target="#compressor"></a>
+						<a href="" class="btn btn-propulsion" data-toggle="modal" data-target="#propulsion"></a>
+						<a href="" class="btn btn-electronics" data-toggle="modal" data-target="#electronics"></a>
+						<a href="" class="btn btn-brakes" data-toggle="modal" data-target="#brakes"></a>
+						<a href="" class="btn btn-hull" data-toggle="modal" data-target="#hull"></a>
+                        -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+<!-- Donation Section -->
+	<section id="download" class="content-section text-center">
+		<div class="download-section">
+			<div class="container">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h2>Donate to Lehigh Hyperloop</h2>
+					<p>Help support our team as we finish our pod and head to California this fall!</p>
+					<a href="http://ignite.lehigh.edu/hyperloop" class="btn btn-default btn-lg">Visit Donation Page</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="container text-center">
+			<p>Copyright &copy; Lehigh Hyperloop</p>
+			<p><i>Theme originally designed by <a href="http://startbootstrap.com/">Start Bootstrap</a> and then brutally mangled to suit our purposes.</i></p>
+		</div>
+	</footer>
+
+	<!-- jQuery -->
+	<script src="js/jquery.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="js/jquery.easing.min.js"></script>
+
+	<!-- Custom Theme JavaScript -->
+	<script src="js/grayscale.js"></script>
+    <script src="js/dropdwn.js"></script>
+</body>
+
+
+<!-- Modal -->
+<div class="modal fade" id="power" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header" align="middle">
+        <h1 class="modal-title" id="exampleModalLongTitle">Power Systems</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" align="middle">
+      	<img src="img/pod/power.JPG" width="75%" >
+      	<p>The main battery pack consist of 8 Tesla Model S battery packs. Each pack hasa voltage of 25.2 VDC and 250Ahr giving us a total power of 50.4Kw. Collectively the battery arrangment can output 750A continuous and a peak of 3600A for 30 seconds. The compressor typically draws 650A (16Kw) and can draw up to 2000A during the startup (first 3-7 seconds).</p>  
+		<p>The DC batterries feed into two Schnieder Electric inverters that are capable of outputting the full 16Kw of power needed for up to 30 mins at a time efore needed to be cooled off. The inverters convert the DC power into single phase 230V AC power which is then fed into a variable frequency driver (VFD). The VFD is used to convert the single phase power into three phase which is what the compressor requires to be turned on. 
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="levitation" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header" align="middle">
+        <h1 class="modal-title" id="exampleModalLongTitle">Levitation and Suspension</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" align="middle">
+
+      <video width="75%" loop muted autoplay>
+  		<source src="img/pod/levitation_video.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+
+		<p>Lehigh Hyperloop created one of the most sustainable active-levitation system. The 15-hp Ingersoll Rand® compressor feeds 55 CFM into the two rear tanks before regulated and distributed into the four respective AirFoat® air bearings. The design allows the pod to be levitated at any point in the tube and at any speed. The two emergency rear tanks serve as backups in the case of compressor power loss, which allows the pod to safely coast before the emergency stop.
+		</p>
+      <img src="img/pod/levitation1.jpg" width="75%">
+      <p>AlesTech® has been our integral technical partner on the active suspension system for our levitation system. The units were designed to allow vertical movements and to ensure the correct positioning of the levitation system. The suspension also reduces vibration during flight to improve comfort and for safety.
+      	
+      </p>
+
+      <video width="75%" loop muted autoplay>
+  		<source src="img/pod/suspension_video.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+    <img src="img/pod/empty_air_bearing.jpg" width="75%">
+    <p>Shown above is the air bearing bladder without any air.</p>
+    <img src="img/pod/filled_air_bearing.jpg" width="75%">
+    <p>Shown above is the air bearing bladder filled with air.</p>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="compressor" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header" align="middle">
+        <h1 class="modal-title" id="exampleModalLongTitle">Intake and Compressor</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" align="middle">
+      <img src="img/pod/compressor1.jpg" width="75%">
+      <p>
+      	Ingersoll Rand generously donated the compressor used in the Hyper Hawk to Lehigh Hyperloop along with power tools that were used in the whole building process.  They were also very helpful whenever we had questions with the compressor, sometimes even coming in and check it out for themselves.  As stated above, the radiator is the starting point of the air into the compressor.  From there, the air runs through the compressor, where it then goes to the next stage of the levitation system.  
+      </p>
+      <img src="img/pod/compressor2.jpg" width="75%">
+      <p>
+      	The Lehigh Hyperloop levitation system starts with the air intake system.  At the front of the pod stands a 24” custom made fan capable of taking in air at 11500 CFM, which is run from the Tesla batteries.  Directly mounted to the back of the fan is the radiator, the first stage for the air traveling into the compressor.  Any extra air that doesn’t get to the radiator is used as the cooling system inside of the pod.  Because of the low pressure in the tube, this fan is able to provide us with more than enough air needed for our levitation system.  In addition, the fan reduces the coefficient of drag of the pod since it is able to reduce the amount of air that would otherwise cause a higher drag force.
+      </p>
+
+      <img src="img/pod/Full_Pod.PNG" width="75%">
+      <p>
+      	
+      </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="electronics" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header" align="middle">
+        <h1 class="modal-title" id="exampleModalLongTitle">Electronics/Controls</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" align="middle">
+      <img src="img/pod/electronics.JPG" width="75%">
+      <p>
+      	
+      </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="propulsion" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header" align="middle">
+        <h1 class="modal-title" id="exampleModalLongTitle">Propulsion</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" align="middle">
+      <img src="img/pod/lateral_control.jpg" width="75%">
+      <p>The primary propulsive power comes not from an internal system but rather from a secondary vehicle operated by SpaceX called the “pusher.” The pusher starts behind the pod and imposes an acceleration by, of course, pushing against the rear of the pod. The HyperHawk is designed to handle peak accelerations of 1.2g, reaching a maximum velocity of up to 240 mph when the pusher disengages roughly one third of the way down the test track.
+      </p>
+      <p>To accelerate the weight of the pod, a force of over 1 ton must be transmitted from the point of contact with the pusher to the main chassis. We designed a specialized structure called the pusher interface to handle this load, performing numerous simulations to ensure that a satisfactory structural factor of safety is maintained in the worst case conditions. The interface is mounted to the rear of the chassis and includes an aluminum plate to serve as the contact point with the pusher.</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="brakes" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header" align="middle">
+        <h1 class="modal-title" id="exampleModalLongTitle">Brakes</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" align="middle">
+      <img src="img/pod/brakes.png" width="75%">
+      <p>
+
+      </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="hull" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header" align="middle">
+        <h1 class="modal-title" id="exampleModalLongTitle">Shell and Frame</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" align="middle">
+
+      <img src="img/pod/frame.jpg" width="75%">
+      <p>The materials used for the shell were taken from what most airplanes use, specifically, in this case 1/32” aluminum 6061-T6.  This was used because it’s durable, easy to work with, forgivable, lightweight, and cheap.  Because it’s aluminum, the design of the hull needed to have a minimum amount of curves.  Because of the various sub-systems such as a fan, compressor, batteries, a full sized dummy and much more, an extremely big hull compared to other teams needed to be designed.  This is what the Engineering Lead, Tech worked on.  Running simulations on Comsol, a hull that could accommodate our systems, while remaining easy to build and aerodynamic was designed.  After the shell was designed, a simple yet strong frame that connected to the shell was implemented and built using 1x1 inch aluminum tubing.</p>
+      <img src="img/pod/shell1.jpg" width="75%">
+      <img src="img/pod/shell2.jpg" width="75%">
+      <img src="img/pod/shell3.jpg" width="75%">
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</html>
